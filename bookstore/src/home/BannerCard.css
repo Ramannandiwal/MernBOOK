@@ -1,0 +1,73 @@
+
+.banner .swiper {
+  width: 240px;
+  height: 320px;
+}
+
+.banner .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.banner .swiper-slide:nth-child(1n) {
+  background-image: url("../assets/bookcoverphoto/firstbook.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner .swiper-slide:nth-child(2n) {
+    background-image: url("../assets/bookcoverphoto/Secondbook.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner .swiper-slide:nth-child(3n) {
+    background-image: url("../assets/bookcoverphoto/thirdbook.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner .swiper-slide:nth-child(4n) {
+    background-image: url("../assets/bookcoverphoto/fourthbook.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner .swiper-slide:nth-child(5n) {
+    background-image: url("../assets/bookcoverphoto/fifthbook.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner .swiper-slide:nth-child(6n) {
+    background-image: url("../assets/bookcoverphoto/bookcoverphoto/sixthbook.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner .swiper-slide:nth-child(7n) {
+    background-image: url("../assets/bookcoverphoto/seventhbook.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner .swiper-slide:nth-child(8n) {
+    background-image: url("../assets/bookcoverphoto/eigthbook.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner .swiper-slide:nth-child(9n) {
+    background-image: url("../assets/bookcoverphoto/Ninthbook.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner .swiper-slide:nth-child(10n) {
+  background-color: rgb(54, 94, 77);
+}
