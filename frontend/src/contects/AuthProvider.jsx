@@ -23,9 +23,7 @@ const AuthProvider=({children})=>{
     const logout=()=>{
       return signOut(auth)
     }
-//     const signUpWithGmail=()=>{
-// return signUpWithGmail
-//     }
+
 useEffect(()=>{
   const unsubscribe=onAuthStateChanged(auth,currentUser=>{
    setuUser(currentUser)
